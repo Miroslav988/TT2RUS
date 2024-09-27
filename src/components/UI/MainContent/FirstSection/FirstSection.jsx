@@ -2,6 +2,11 @@ import React from "react";
 import BigNumber from "../BigNumber";
 import GridItem from "./GridItem";
 import fill from "../../../../Images/ill 1.png";
+import sill from "../../../../Images/ill2.jpg";
+import till from "../../../../Images/ill 7.jpg";
+import fiill from "../../../../Images/ill 4.jpg";
+import siill from "../../../../Images/ill 5.jpg";
+import seill from "../../../../Images/ill 6.jpg";
 import cl from "./FirstSection.module.css";
 
 const FirstSection = () => {
@@ -20,11 +25,11 @@ const FirstSection = () => {
         </p>
         <div className={cl.grid}>
           <GridItem url={fill}></GridItem>
-          <GridItem url={fill}></GridItem>
-          <GridItem url={fill}></GridItem>
-          <GridItem url={fill}></GridItem>
-          <GridItem url={fill}></GridItem>
-          <GridItem url={fill}></GridItem>
+          <GridItem url={sill}></GridItem>
+          <GridItem url={till}></GridItem>
+          <GridItem url={fiill}></GridItem>
+          <GridItem url={siill}></GridItem>
+          <GridItem url={seill}></GridItem>
         </div>
         <span className={cl.sign}>а также более 90 других продуктов</span>
       </div>

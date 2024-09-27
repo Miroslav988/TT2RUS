@@ -2,6 +2,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  background-repeat: no-repeat;
   width: 220px;
   height: 220px;
   border-radius: 15px;
@@ -32,20 +33,23 @@
   left: 6px;
 }
 .text {
+  text-transform: uppercase;
+  text-align: center;
   position: absolute;
   margin: 0;
-  bottom: 0;
+  margin-left: 12px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
-  font-size: 13px;
-  width: 148px;
+  font-weight: 700;
+  font-size: 9px;
+  width: 153px;
 }
 .btn {
   position: absolute;
-  right: -1px;
-  bottom: 0px;
+  left: 171px;
+  bottom: -1px;
   margin: 0;
   padding: 0;
   background: linear-gradient(91.25deg, #df5017 -4.25%, #f9cb74 108.11%);
@@ -56,12 +60,26 @@
   width: 36px;
   height: 36px;
 }
+.btn::after {
+  content: "";
+  background-image: url("../../../Images/Line\ 1.svg");
+  width: 15px;
+  height: 10px;
+  display: inline-block; /* display the image as an inline block */
+  background-size: contain; /* scale the image to fit the container */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat;
+}
 .section {
   position: absolute;
   display: flex;
   height: 910px;
-  justify-content: space-around;
+  gap: 10px;
   left: 1450px;
   top: 748px;
   flex-direction: column;
+}
+.strong {
+  font-size: 13px;
+  text-transform: none;
 }

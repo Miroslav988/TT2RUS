@@ -9,10 +9,10 @@ import { ReactComponent as Arrow } from "../../../../Images/arrow.svg";
 import pdfLogo from "../../../../Images/pdfLogo.png";
 import aiLogo from "../../../../Images/ai_logo_adobe_illustrator 1.png";
 import cLogo from "../../../../Images/Logo 3.png";
-import fImg from "../../../../Images/буклет книжка жемчужина-03.png";
-import sImg from "../../../../Images/буклет книжка жемчужина-04.png";
-import tImg from "../../../../Images/буклет книжка жемчужина-05.png";
-import wrongPdf from "../../../../Images/WrongPdf.png";
+import fImg from "../../../../Images/буклет книжка жемчужина-03.jpg";
+import sImg from "../../../../Images/буклет книжка жемчужина-04.jpg";
+import tImg from "../../../../Images/буклет книжка жемчужина-05.jpg";
+import wrongPdf from "../../../../Images/WrongPdf.jpg";
 const ThirdSection = () => {
   return (
     <section className={cl.section}>
@@ -37,22 +37,22 @@ const ThirdSection = () => {
       </p>
       <div className={cl.circleCont}>
         <div className={cl.circle + " " + cl.first}>
-          <img style={{ marginRight: "9px" }} src={pdfLogo} alt={PDF} />
+          <img style={{ marginRight: "9px" }} src={pdfLogo} alt={"PDF"} />
         </div>
         <Arrow className={cl.right} />
         <Arrow className={cl.left} />
         <div className={cl.circle + " " + cl.second}>
-          <img src={aiLogo} alt={AI} />
+          <img src={aiLogo} alt="AI" />
         </div>
         <div className={cl.imgCont}>
-          <img src={fImg} alt={"Example"} />
-          <img src={sImg} alt={"Example"} />
-          <img src={tImg} alt={"Example"} />
+          <img style={{ borderRadius: "10px" }} src={fImg} alt="Example" />
+          <img style={{ borderRadius: "10px" }} src={sImg} alt="Example" />
+          <img style={{ borderRadius: "10px" }} src={tImg} alt="Example" />
         </div>
         <div className={cl.circle + " " + cl.third}>
-          <img src={cLogo} alt={"Logo"} />
+          <img src={cLogo} alt="Logo" />
         </div>
-        <img className={cl.wrongPdf} src={wrongPdf} alt={"Example"} />
+        <img className={cl.wrongPdf} src={wrongPdf} alt="Example" />
       </div>
     </section>
   );

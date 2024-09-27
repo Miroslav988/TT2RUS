@@ -7,9 +7,9 @@ const SideInfo = ({ children, url, strong }) => {
       <div className={cl.textContainer}>
         <p className={cl.text}>
           {children}
-          <strong>{strong}</strong>
+          <strong className={cl.strong}>{strong}</strong>
         </p>
-        <button className={cl.btn}>{"->"}</button>
+        <button className={cl.btn}></button>
       </div>
     </div>
   );
