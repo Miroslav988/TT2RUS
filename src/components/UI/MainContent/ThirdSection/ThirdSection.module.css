@@ -1,0 +1,80 @@
+.section {
+  padding-bottom: 44px;
+}
+.circle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  background: linear-gradient(
+    147.64deg,
+    #ffffff 30.8%,
+    #c1c0c4 57.13%,
+    #86848d 72.92%,
+    #343140 82.7%
+  );
+}
+.text {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-bottom: 52px;
+  width: 1060px;
+}
+.circleCont {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  position: relative;
+}
+.first {
+  top: 8px;
+  left: 669px;
+}
+.second {
+  left: 330px;
+  top: 72px;
+}
+.third {
+  right: 75px;
+  top: 72px;
+}
+.err {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 340px;
+  height: 250px;
+}
+.errCont {
+  margin-left: 240px;
+  width: 100%;
+  display: flex;
+}
+.right {
+  position: absolute;
+  right: 260px;
+  top: 62px;
+}
+.left {
+  position: absolute;
+  top: 62px;
+  transform: scaleX(-1);
+  left: 514px;
+}
+.imgCont {
+  margin-top: auto;
+  display: flex;
+  gap: 18px;
+  width: 774px;
+  height: 350px;
+}
+.wrongPdf {
+  margin-top: auto;
+  margin-left: 160px;
+  width: 246px;
+  height: 350px;
+}

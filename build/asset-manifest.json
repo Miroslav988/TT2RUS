@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a681b977.css",
+    "main.js": "/static/js/main.4858da4f.js",
+    "static/media/computerPicture.png": "/static/media/computerPicture.f9432a21f42e80aa4afe.png",
+    "static/media/Коробка для столика 11.png": "/static/media/Коробка для столика 11.6679d305c0d1b894a5db.png",
+    "static/media/Коробка для столика 10.png": "/static/media/Коробка для столика 10.7f554e73fcc492a88d78.png",
+    "static/media/Коробка для столика 8.png": "/static/media/Коробка для столика 8.aac4125b468673d4d834.png",
+    "static/media/Коробка для столика 9.png": "/static/media/Коробка для столика 9.00c4c08d975ead646955.png",
+    "static/media/Коробка для столика 13.png": "/static/media/Коробка для столика 13.6e4f011efc8f91b7dcc4.png",
+    "static/media/Коробка для столика 7.png": "/static/media/Коробка для столика 7.183f737bb1b16277c971.png",
+    "static/media/Коробка для столика 5.png": "/static/media/Коробка для столика 5.af264386b2835bcae226.png",
+    "static/media/Коробка для столика 6.png": "/static/media/Коробка для столика 6.507e82dc858f166d6d67.png",
+    "static/media/Коробка для столика 12.png": "/static/media/Коробка для столика 12.83848cc593b6cabbffbb.png",
+    "static/media/Коробка для столика 1.png": "/static/media/Коробка для столика 1.e35421de34da89aff598.png",
+    "static/media/WrongPdf.png": "/static/media/WrongPdf.566ea7038b05e2c31f26.png",
+    "static/media/буклет книжка жемчужина-03.png": "/static/media/буклет книжка жемчужина-03.6909f82a6bdb4c5970a4.png",
+    "static/media/Rectangle 161124045.png": "/static/media/Rectangle 161124045.577f584c2f0d9f397d8b.png",
+    "static/media/Rectangle 161124047.png": "/static/media/Rectangle 161124047.14a6b18ec5b017cc91e7.png",
+    "static/media/буклет книжка жемчужина-05.png": "/static/media/буклет книжка жемчужина-05.12f693c3c7b5e3db7582.png",
+    "static/media/буклет книжка жемчужина-04.png": "/static/media/буклет книжка жемчужина-04.a5c7a75308b063bf365e.png",
+    "static/media/gothampro_italic.ttf": "/static/media/gothampro_italic.ed40ea7b2680692bd2b1.ttf",
+    "static/media/gothampro_bolditalic.ttf": "/static/media/gothampro_bolditalic.045e34198ea694f1d3e4.ttf",
+    "static/media/gothampro_bold.ttf": "/static/media/gothampro_bold.764ba13de4409a990823.ttf",
+    "static/media/gothampro_medium.ttf": "/static/media/gothampro_medium.dca4b95d345c2abd8661.ttf",
+    "static/media/gothampro.ttf": "/static/media/gothampro.4f71921a0823129cd8ba.ttf",
+    "static/media/err2.png": "/static/media/err2.85e27990def41c3a2e64.png",
+    "static/media/err1.png": "/static/media/err1.5d4be3e83505f5a7a44d.png",
+    "static/media/arrow.svg": "/static/media/arrow.c0b13cd84751b3515c3a032db8f8d9bb.svg",
+    "index.html": "/index.html",
+    "main.a681b977.css.map": "/static/css/main.a681b977.css.map",
+    "main.4858da4f.js.map": "/static/js/main.4858da4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a681b977.css",
+    "static/js/main.4858da4f.js"
+  ]
+}

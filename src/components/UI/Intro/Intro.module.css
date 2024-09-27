@@ -1,0 +1,47 @@
+.intro {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #282533 65%,
+    #282533 65%,
+    rgba(40, 37, 51, 0.739583) 82%,
+    rgba(40, 37, 51, 0) 100%
+  );
+  width: 70%;
+  height: 568px;
+}
+.orgRec {
+  position: absolute;
+  background: linear-gradient(
+    123deg,
+    #df5017 4%,
+    rgba(223, 80, 23, 0.440343) 22%,
+    rgba(223, 80, 23, 0.19) 35%,
+    rgba(223, 80, 23, 0) 52%
+  );
+  background-repeat: no-repeat;
+
+  height: 568px;
+  width: 850px;
+}
+.title {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  width: 820px;
+  height: 120px;
+  margin-left: 250px;
+  margin-top: 181px;
+}
+.picture {
+  position: absolute;
+  height: 568px;
+  margin-left: 850px;
+  width: 1070px;
+  background-position: 0px -80px;
+  background-size: cover;
+  z-index: -2;
+  background-repeat: no-repeat;
+}

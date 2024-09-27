@@ -1,0 +1,71 @@
+.title {
+  margin-top: 100px;
+  background: linear-gradient(
+    91deg,
+    #ffa462 0%,
+    #b45350 22%,
+    #8a2645 49%,
+    #291725 85%
+  );
+  border-radius: 30px;
+  height: 54px;
+  width: 1093px;
+  font-size: 22px;
+  padding: 40px 47px 50px 40px;
+  line-height: 1.4;
+  text-align: center;
+}
+.textAndGrid {
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  font-size: 22px;
+  margin-top: 41px;
+  margin-left: 120px;
+  margin-bottom: 52px;
+  width: 1060px;
+}
+.grid {
+  margin-left: 120px;
+  display: grid;
+  width: 836px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.gridItem {
+  background-position: center;
+  border-radius: 15px;
+  width: 121px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-color: white;
+  padding: 11px 73px;
+}
+.bigNumber {
+  font-size: 183px;
+  position: absolute;
+  left: 250px;
+  font-weight: 700;
+  background: linear-gradient(
+    172.77deg,
+    #8a2645 15.55%,
+    #291725 56.17%,
+    #171422 75.48%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sign {
+  font-size: 18px;
+  width: 335px;
+  margin-top: 31px;
+  margin-left: 685px;
+}
+.botText {
+  margin-top: 40px;
+  font-size: 22px;
+}
+.second {
+  margin-top: 68px;
+}

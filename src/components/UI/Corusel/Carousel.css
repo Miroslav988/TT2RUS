@@ -1,0 +1,50 @@
+.carousel {
+  margin-bottom: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-inner {
+  display: flex;
+  gap: 20px;
+  width: calc(200% + 372px);
+  animation: scroll-right linear infinite;
+}
+
+.carousel.right .carousel-inner {
+  animation: scroll-right 40s linear infinite;
+}
+
+.carousel.left .carousel-inner {
+  animation: scroll-left 40s linear infinite;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  width: 402px;
+}
+
+.carousel-item img {
+  width: 402px;
+  display: block;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
