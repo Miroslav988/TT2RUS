@@ -23,7 +23,7 @@
   font-size: 22px;
   margin-top: 41px;
   margin-left: 120px;
-  margin-bottom: 52px;
+  margin-bottom: 40px;
   width: 1060px;
 }
 .grid {
@@ -31,7 +31,8 @@
   display: grid;
   width: 836px;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  column-gap: 41px;
+  row-gap: 20px;
 }
 .gridItem {
   background-position: center;
@@ -60,7 +61,7 @@
   font-size: 18px;
   width: 335px;
   margin-top: 31px;
-  margin-left: 685px;
+  margin-left: 665px;
 }
 .botText {
   margin-top: 40px;
