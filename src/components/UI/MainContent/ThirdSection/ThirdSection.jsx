@@ -37,22 +37,22 @@ const ThirdSection = () => {
       </p>
       <div className={cl.circleCont}>
         <div className={cl.circle + " " + cl.first}>
-          <img style={{ marginRight: "9px" }} src={pdfLogo} />
+          <img style={{ marginRight: "9px" }} src={pdfLogo} alt={PDF} />
         </div>
         <Arrow className={cl.right} />
         <Arrow className={cl.left} />
         <div className={cl.circle + " " + cl.second}>
-          <img src={aiLogo} />
+          <img src={aiLogo} alt={AI} />
         </div>
         <div className={cl.imgCont}>
-          <img src={fImg} />
-          <img src={sImg} />
-          <img src={tImg} />
+          <img src={fImg} alt={"Example"} />
+          <img src={sImg} alt={"Example"} />
+          <img src={tImg} alt={"Example"} />
         </div>
         <div className={cl.circle + " " + cl.third}>
-          <img src={cLogo} />
+          <img src={cLogo} alt={"Logo"} />
         </div>
-        <img className={cl.wrongPdf} src={wrongPdf} />
+        <img className={cl.wrongPdf} src={wrongPdf} alt={"Example"} />
       </div>
     </section>
   );
