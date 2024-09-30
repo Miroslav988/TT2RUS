@@ -6,20 +6,20 @@ import googles from "../../../Images/ddad9815e1e38f6042605ef812ec6645.jpg";
 import cl from "./SideSection.module.css";
 const SideSection = () => {
   return (
-    <section className={cl.section}>
-      <SideInfo url={compPic} strong={"CorelDraw"}>
+    <ul className={cl.section}>
+      <SideInfo href={"#"} url={compPic} strong={"CorelDraw"}>
         почему мы не используем
       </SideInfo>
-      <SideInfo url={people} strong={"только лучшие"}>
+      <SideInfo href={"#"} url={people} strong={"только лучшие"}>
         в команде Creat работают
       </SideInfo>
-      <SideInfo url={googles} strong={"для дизайна"}>
+      <SideInfo href={"#"} url={googles} strong={"для дизайна"}>
         откуда мы черпаем идеи
       </SideInfo>
-      <SideInfo url={people} strong={"только лучшие"}>
+      <SideInfo href={"#"} url={people} strong={"только лучшие"}>
         в команде Creat работают
       </SideInfo>
-    </section>
+    </ul>
   );
 };
 

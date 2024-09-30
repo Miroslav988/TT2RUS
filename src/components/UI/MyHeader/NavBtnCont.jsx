@@ -3,11 +3,11 @@ import NavBtn from "./NavBtn";
 import cl from "./HeaderStyles.module.css";
 const NavBtnCont = () => {
   return (
-    <nav className={cl.container}>
+    <ul className={cl.container}>
       <NavBtn>Направления</NavBtn>
       <NavBtn>Портфолио</NavBtn>
       <NavBtn>Контакты</NavBtn>
-    </nav>
+    </ul>
   );
 };
 

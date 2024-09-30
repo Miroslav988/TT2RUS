@@ -23,14 +23,14 @@ const FirstSection = () => {
           Adobe - это компания, представляющая широкий спектр продуктов, среди
           которых вы, вероятно, знакомы с основными: 
         </p>
-        <div className={cl.grid}>
+        <ul className={cl.grid}>
           <GridItem url={fill}></GridItem>
           <GridItem url={sill}></GridItem>
           <GridItem url={till}></GridItem>
           <GridItem url={fiill}></GridItem>
           <GridItem url={siill}></GridItem>
           <GridItem url={seill}></GridItem>
-        </div>
+        </ul>
         <span className={cl.sign}>а также более 90 других продуктов</span>
       </div>
       <p className={cl.botText}>

@@ -2,9 +2,9 @@ import React from "react";
 import cl from "./HeaderStyles.module.css";
 const NavBtn = ({ children }) => {
   return (
-    <button className={cl.navBtns} type="button">
-      {children}
-    </button>
+    <li className={cl.navBtns} type="button">
+      <a href="#">{children}</a>
+    </li>
   );
 };
 

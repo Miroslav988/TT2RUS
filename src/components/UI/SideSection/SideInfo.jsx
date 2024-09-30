@@ -1,17 +1,17 @@
 import React from "react";
 import cl from "./SideSection.module.css";
 
-const SideInfo = ({ children, url, strong }) => {
+const SideInfo = ({ children, url, strong, href }) => {
   return (
-    <div style={{ backgroundImage: `url("${url}")` }} className={cl.sideImage}>
-      <div className={cl.textContainer}>
-        <p className={cl.text}>
+    <li style={{ backgroundImage: `url("${url}")` }} className={cl.sideImage}>
+      <article className={cl.textContainer}>
+        <a href={href} className={cl.text}>
           {children}
           <strong className={cl.strong}>{strong}</strong>
-        </p>
+        </a>
         <button className={cl.btn}></button>
-      </div>
-    </div>
+      </article>
+    </li>
   );
 };
 
